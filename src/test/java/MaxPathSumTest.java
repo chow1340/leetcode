@@ -1,5 +1,6 @@
 import nodes.TreeNode;
 import org.junit.Test;
+import questions.tree.MaxPathSum;
 import util.Tree;
 
 public class MaxPathSumTest {
