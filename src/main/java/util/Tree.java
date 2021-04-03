@@ -42,7 +42,7 @@ public class Tree {
         return treeNode;
     }
 
-    private static Integer[] parseData(String data){
+    public static Integer[] parseData(String data){
         data = data.replace("[", "");
         data = data.replace("]", "");
 
