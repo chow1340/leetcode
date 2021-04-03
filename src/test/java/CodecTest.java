@@ -7,6 +7,5 @@ public class CodecTest {
         Codec codec = new Codec();
         TreeNode node = codec.deserialize("[1,2,3,null,null,4,5]");
         String string = codec.serialize(node);
-//        System.out.println(string);
     }
 }
